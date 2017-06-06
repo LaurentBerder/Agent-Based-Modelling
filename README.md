@@ -14,7 +14,8 @@
    Main controls Collaborate switch controls the choice of strategies. The observer can select the number of job-seekers. The observer can select the number of jobs available, and the number of clusters they're arranged in. For a totally random spacial distribution of jobs, the observer can select the maximum number of clusters (which is equal to the number of jobs).
    
    
-   The model displays a plot to keep track of the number of available jobs, the number of agents that get discouraged, the total number of applications submitted, and the number of agents that found a job. ### Other controls Agents have a random amount of energy between zero and the number chosen by the user with the Max-energy slider. When submitting an application to a job, an agent receives the additional amount of energy that the user can select with the Energy-from-application slider (this amount cannot exceed the Max-energy). Agents take steps of a random length, within the range that the observer can set with the max-distance-per-tick.
+   The model displays a plot to keep track of the number of available jobs, the number of agents that get discouraged, the total number of applications submitted, and the number of agents that found a job. 
+   Agents have a random amount of energy between zero and the number chosen by the user with the Max-energy slider. When submitting an application to a job, an agent receives the additional amount of energy that the user can select with the Energy-from-application slider (this amount cannot exceed the Max-energy). Agents take steps of a random length, within the range that the observer can set with the max-distance-per-tick.
    
    
     Calculate the difference of results (jobs found, discouraged agents, applications) depending on the chosen strategy. The number of jobs found should be equal to the number of patches that turn grey.
